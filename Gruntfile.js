@@ -40,7 +40,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:meganmotis/wats4030-portfolio.git',
+          remote: 'git@github.com:jiuntwang/wats4030-portfolio.git',
           branch: 'gh-pages'
         }
       }

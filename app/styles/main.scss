@@ -13,6 +13,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* Space out content a bit */
 body {
+  margin: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -23,6 +24,12 @@ body {
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center;
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+  }
 }
 
 /* Custom page header */
@@ -53,10 +60,6 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
 }
 
 /* Supporting marketing content */
@@ -90,4 +93,37 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+.tech-logos {
+  text-align: center;
+}
+  .tech-logos img {
+        max-height: 75px;
+        width: auto;
+      }
+
+ .tech-logos li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 20px;
+      }
+ #capstone img {
+    max-width: 500px;
+    height: auto;
+ }
+
+ #about img {
+   max-width: 300px;
+   height: auto;
+ }
+
+ #webdev-projects img {
+   max-width: 300px;
+   height: auto;
+   margin-top: 50px;
+ }
+ #webdev-projects .btn {
+   margin-top: 20px;
+ }
+
 }
